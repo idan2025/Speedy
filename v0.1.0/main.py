@@ -61,7 +61,7 @@ def test_speed():
 
 # GUI setup
 root = tk.Tk()
-root.iconbitmap("speedtest-icon.ico")
+root.iconbitmap(resource_path("speedtest-icon.ico"))
 root.title("Speedy v0.1.0")
 root.configure(bg='#333333')
 root.geometry('350x200')  # Adjust window size
